@@ -1,0 +1,15 @@
+{
+  "name": "lead-search-mvp",
+  "version": "1.0.0",
+  "description": "5-lead free search prototype — no auth MVP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "pg": "^8.13.0",
+    "dotenv": "^16.4.0"
+  }
+}
